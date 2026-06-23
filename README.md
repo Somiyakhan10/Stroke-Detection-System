@@ -27,11 +27,12 @@ Confusion matrix heatmap showing classification breakdown
 
 ### ROC Analysis
 <img width="850" height="598" alt="image" src="https://github.com/user-attachments/assets/86c5f02e-dfbc-4bf8-be66-54af82fb8638" />
-    ROC curve with AUC score demonstrating model discrimination
+ROC curve with AUC score demonstrating model discrimination
 
 ### Clinical Dashboard
 <img width="764" height="501" alt="image" src="https://github.com/user-attachments/assets/e82c257c-5635-4814-a934-cb5804f50991" />
-   6 test cases with original images, Grad-CAM heatmaps, and predictions
+
+6 test cases with original images, Grad-CAM heatmaps, and predictions
 
 ##  Dataset
 
