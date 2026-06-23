@@ -19,19 +19,19 @@ An automated system that detects stroke presence in brain CT scans using **deep 
 
 ### Training Progress
 <img width="1634" height="458" alt="image" src="https://github.com/user-attachments/assets/bbe7ad84-8b07-4e7a-a6d3-ddfe807a1509" />
-> *Training and validation accuracy/loss curves showing model convergence*
+Training and validation accuracy/loss curves showing model convergence
 
 ### Classification Performance
 <img width="775" height="597" alt="image" src="https://github.com/user-attachments/assets/2b05531e-3626-43a9-88f6-a86e7f107779" />
-> *Confusion matrix heatmap showing classification breakdown*
+Confusion matrix heatmap showing classification breakdown
 
 ### ROC Analysis
 <img width="850" height="598" alt="image" src="https://github.com/user-attachments/assets/86c5f02e-dfbc-4bf8-be66-54af82fb8638" />
-> *ROC curve with AUC score demonstrating model discrimination*
+ROC curve with AUC score demonstrating model discrimination
 
 ### Clinical Dashboard
 <img width="764" height="501" alt="image" src="https://github.com/user-attachments/assets/e82c257c-5635-4814-a934-cb5804f50991" />
-> *6 test cases with original images, Grad-CAM heatmaps, and predictions*
+6 test cases with original images, Grad-CAM heatmaps, and predictions
 
 ##  Dataset
 
@@ -122,26 +122,6 @@ Gradient-weighted Class Activation Mapping provides:
 - **Visual validation** of model decision-making
 - **Support for** radiologist trust and adoption
 
----
-
-##  Project Structure
-
-```
-stroke-detection/
-├── stroke_detection.ipynb      # Main notebook
-├── README.md                   # Documentation
-├── requirements.txt            # Dependencies
-└── results/                    # Generated outputs
-    ├── stroke_detection_model.h5       # Trained model
-    ├── stroke_detection_model.keras    # Keras format
-    ├── training_history.png            # Training curves
-    ├── confusion_matrix.png            # Confusion matrix
-    ├── roc_curve.png                  # ROC with AUC
-    ├── clinical_dashboard.png          # Test cases
-    └── execution_summary.txt           # Full report
-```
-
----
 
 ##  Technologies Used
 
@@ -155,6 +135,3 @@ stroke-detection/
 | Seaborn | 0.12.0 | Statistical plots |
 | Scikit-learn | 1.3.0 | Metrics & validation |
 | KaggleHub | 0.1.0 | Dataset management |
-
-
-**Last Updated:** 2024
